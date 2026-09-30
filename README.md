@@ -17,7 +17,11 @@ LeadSetu is an AI agent that takes one raw buyer requirement and:
 6. **Verifies its own output:** a code-based guardrail removes any supplier ID that is not in the catalog or in this run's search results.
 
 ## How I tested it
-An evaluation set of 8 cases (`data/eval_test_cases.csv`) checks extraction accuracy (category, city, quantity), whether suppliers are returned when they should be, and whether any supplier IDs were invented. Two cases are deliberately hard: a vague request ("need some stuff urgently") that should score low, and a product not in the catalog (a Boeing engine) that should return no matches. The tests can be run from the Evaluation tab of the live demo.
+An evaluation set of 8 cases (`eval_test_cases.csv`) checks extraction accuracy (category, city, quantity), whether suppliers are returned when they should be, and whether any supplier IDs were invented. Two cases are deliberately hard: a vague request ("need some stuff urgently") that should score low, and a product not in the catalog (a Boeing engine) that should return no matches. The tests can be run from the Evaluation tab of the live demo.
+
+**Result:** on the live demo's fast model, the agent passed **48 of 48 checks (100%)** across all 8 test cases in one full run. It correctly returned no suppliers for the vague request (lead score 5 of 100) and for the out-of-catalog product (lead score 0), and the guardrail found no invented supplier IDs. With only 8 cases and one run, this shows the design works; a larger test set and repeated runs would be needed to measure reliability at scale.
+
+![Evaluation results: 48 of 48 checks passed](Leadsetu_Test_Run.png)
 
 ## Product thinking (PRD summary)
 - **Users:** buyers (faster, relevant quotes) and suppliers (fewer junk leads).
@@ -32,13 +36,14 @@ LLM with tool calling (Claude) · prompt engineering (role, step-by-step instruc
 ## Files
 | Path | What it is |
 |---|---|
-| `app/index.html` | The complete app (open inside Claude for AI features; retrieval works anywhere) |
-| `app/retriever.js` | The BM25 search engine with Hinglish synonyms |
-| `prompts/agent_prompt.md` | The full agent prompt, with the techniques used |
-| `data/supplier_catalog.csv` | 48 synthetic suppliers across 12 categories and 16 cities |
-| `data/eval_test_cases.csv` | 8 test cases with expected answers |
-| `docs/rebuild_in_dify.md` | Step-by-step no-code rebuild using Dify |
-| `docs/interview_prep.md` | Concepts from the job description, explained through this project |
+| `index.html` | The complete app (open inside Claude for AI features; retrieval works anywhere) |
+| `retriever.js` | The BM25 search engine with Hinglish synonyms |
+| `agent_prompt.md` | The full agent prompt, with the techniques used |
+| `supplier_catalog.csv` | 48 synthetic suppliers across 12 categories and 16 cities |
+| `eval_test_cases.csv` | 8 test cases with expected answers |
+| `rebuild_in_dify.md` | Step-by-step no-code rebuild using Dify |
+| `interview_prep.md` | Concepts from the job description, explained through this project |
+| `Leadsetu_Test_Run.png` | Screenshot of the full evaluation run |
 
 ## Limitations
 The supplier catalog is synthetic sample data created for this project, not real marketplace data. Prices and ratings are illustrative. The retrieval is keyword-based; a production version would use embeddings and a vector database.

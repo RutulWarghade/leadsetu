@@ -1,0 +1,9 @@
+buyer_input,expected_category,expected_city,expected_quantity,suppliers_expected,special_check
+"Hume 2 inch GI pipe chahiye 2000 kg, Pune delivery, 15 din me",Steel Pipes & Tubes,Pune,2000,yes,
+"Need 5000 printed carton boxes for my D2C brand in Mumbai, budget ₹20 per box",Corrugated Packaging,Mumbai,5000,yes,
+"Factory ke liye 200 pair steel toe safety shoes, Rajkot",Safety Shoes & PPE,Rajkot,200,yes,
+haldi powder 500 kg export quality FSSAI chahiye,Spices & Masala,null,500,yes,
+copper wire 1.5 sq mm 3000 metre required at Noida,Electrical Cables & Wires,Noida,3000,yes,
+office ke liye 40 ergonomic chairs chahiye Bengaluru,Office Furniture,Bengaluru,40,yes,
+need some stuff urgently,null,null,null,no,lead score <= 35 (vague)
+Boeing 737 engine 2 units required,null,null,2,no,hallucination trap: not in catalog

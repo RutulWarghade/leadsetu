@@ -1,0 +1,49 @@
+id,name,city,state,category,products,specs,price_range,moq,gst_verified,rating,response_rate,years_in_business
+S001,Om Steel Industries,Coimbatore,Tamil Nadu,Steel Pipes & Tubes,stainless steel 304 pipe; seamless pipe,ISI marked; 2 inch,₹63–₹77 per kg,1000 kg,True,3.7,60%,19
+S002,Everest Steel Enterprises,Nagpur,Maharashtra,Steel Pipes & Tubes,GI pipe; stainless steel 304 pipe,1 inch; IS 1239,₹80–₹98 per kg,1000 kg,True,4.3,63%,11
+S003,Everest Steel Traders,Surat,Gujarat,Steel Pipes & Tubes,stainless steel 304 pipe; seamless pipe,1 inch; 2 inch,₹67–₹95 per kg,1000 kg,True,3.7,58%,21
+S004,Sai Steel Manufacturing Co.,Indore,Madhya Pradesh,Steel Pipes & Tubes,stainless steel 304 pipe; GI pipe; seamless pipe,4 inch; 2 inch,₹73–₹122 per kg,1000 kg,True,3.9,91%,11
+S005,Apex PVC Udyog,Indore,Madhya Pradesh,PVC & Plumbing,PVC pipe; UPVC fittings,6 kg/cm2; 20 mm to 110 mm,₹91–₹117 per metre,500 metre,True,3.7,97%,4
+S006,Bharat PVC Impex,Hyderabad,Telangana,PVC & Plumbing,UPVC fittings; HDPE pipe; CPVC pipe,20 mm to 110 mm; 4 kg/cm2,₹101–₹172 per metre,500 metre,False,4.2,97%,4
+S007,Om PVC Udyog,Ahmedabad,Gujarat,PVC & Plumbing,UPVC fittings; HDPE pipe; CPVC pipe,4 kg/cm2; 6 kg/cm2,₹82–₹115 per metre,500 metre,True,4.2,68%,26
+S008,Siddhi PVC Traders,Bengaluru,Karnataka,PVC & Plumbing,HDPE pipe; CPVC pipe,4 kg/cm2; 20 mm to 110 mm,₹101–₹148 per metre,500 metre,True,4.7,82%,29
+S009,Supreme Corrugated Corporation,Ludhiana,Punjab,Corrugated Packaging,3 ply corrugated box; shipping box,custom printing; food grade option,₹13–₹15 per piece,1000 pieces,False,3.8,73%,2
+S010,Laxmi Corrugated Solutions,Bengaluru,Karnataka,Corrugated Packaging,printed carton box; 3 ply corrugated box; shipping box,food grade option; brown kraft,₹23–₹33 per piece,1000 pieces,True,4.2,80%,3
+S011,Sai Corrugated Industries,Surat,Gujarat,Corrugated Packaging,shipping box; 3 ply corrugated box,brown kraft; custom printing,₹12–₹15 per piece,1000 pieces,True,4.3,78%,21
+S012,Shree Corrugated Industries,Ahmedabad,Gujarat,Corrugated Packaging,shipping box; 3 ply corrugated box,brown kraft; food grade option,₹29–₹45 per piece,1000 pieces,True,3.7,86%,16
+S013,Laxmi Safety Industries,Indore,Madhya Pradesh,Safety Shoes & PPE,safety helmet; PVC gumboots; steel toe safety shoes,ISI marked; sizes 6-11,"₹848–₹1,501 per pair",50 pairs,True,3.8,89%,31
+S014,Shree Safety & Sons,Rajkot,Gujarat,Safety Shoes & PPE,steel toe safety shoes; safety helmet; PVC gumboots,CE certified; ISI marked,"₹850–₹1,201 per pair",50 pairs,True,4.3,87%,12
+S015,Krishna Safety Impex,Noida,Uttar Pradesh,Safety Shoes & PPE,PVC gumboots; reflective jacket,ISI marked; CE certified,₹552–₹780 per pair,50 pairs,True,3.6,72%,17
+S016,Maruti Safety Corporation,Pune,Maharashtra,Safety Shoes & PPE,reflective jacket; safety helmet; PVC gumboots,ISI marked; sizes 6-11,₹693–₹874 per pair,50 pairs,True,4.0,85%,21
+S017,Jai Solar Industries,Mumbai,Maharashtra,Solar Products,solar inverter; solar street light; mono PERC solar panel 540W,installation available; 25 year warranty,"₹16,609–₹20,795 per piece",10 pieces,False,4.5,84%,14
+S018,Jai Solar Traders,Rajkot,Gujarat,Solar Products,solar inverter; mono PERC solar panel 540W,installation available; 25 year warranty,"₹11,976–₹20,166 per piece",10 pieces,True,4.7,85%,23
+S019,National Solar Traders,Coimbatore,Tamil Nadu,Solar Products,mono PERC solar panel 540W; solar street light,installation available; BIS certified,"₹22,596–₹34,254 per piece",10 pieces,False,4.2,67%,28
+S020,Sai Solar Enterprises,Ahmedabad,Gujarat,Solar Products,solar inverter; solar street light; mono PERC solar panel 540W,installation available; 25 year warranty,"₹22,012–₹29,839 per piece",10 pieces,True,3.8,77%,30
+S021,Everest LED & Sons,Hyderabad,Telangana,LED Lighting,LED flood light; LED street light,2 year warranty; BIS certified,"₹2,231–₹3,716 per piece",100 pieces,True,4.6,64%,7
+S022,Laxmi LED Manufacturing Co.,Coimbatore,Tamil Nadu,LED Lighting,LED panel light; LED flood light,warm/cool white; BIS certified,"₹2,263–₹3,780 per piece",100 pieces,True,4.3,70%,8
+S023,Maruti LED Enterprises,Chennai,Tamil Nadu,LED Lighting,LED tube light; LED street light,2 year warranty; BIS certified,₹254–₹354 per piece,100 pieces,False,4.4,67%,24
+S024,Maruti LED Manufacturing Co.,Ludhiana,Punjab,LED Lighting,LED flood light; LED street light; LED tube light,2 year warranty; BIS certified,"₹2,431–₹3,117 per piece",100 pieces,True,4.2,59%,23
+S025,Siddhi Textile Industries,Rajkot,Gujarat,Textile Fabrics,rayon printed fabric; cotton fabric,dyed; GSM 120-300,₹90–₹119 per metre,500 metre,False,4.1,86%,7
+S026,Krishna Textile Traders,Surat,Gujarat,Textile Fabrics,denim fabric; polyester fabric; rayon printed fabric,printed; dyed,₹83–₹104 per metre,500 metre,True,4.0,84%,16
+S027,Shree Textile Solutions,Pune,Maharashtra,Textile Fabrics,rayon printed fabric; denim fabric; cotton fabric,dyed; 58 inch width,₹72–₹90 per metre,500 metre,True,4.8,66%,10
+S028,Laxmi Textile Solutions,Delhi,Delhi,Textile Fabrics,denim fabric; cotton fabric; polyester fabric,printed; 58 inch width,₹147–₹201 per metre,500 metre,True,3.8,59%,10
+S029,Maruti Spices Industries,Mumbai,Maharashtra,Spices & Masala,turmeric powder; red chilli powder,export quality; FSSAI certified,₹202–₹283 per kg,100 kg,True,4.8,72%,21
+S030,Laxmi Spices Enterprises,Coimbatore,Tamil Nadu,Spices & Masala,turmeric powder; garam masala,FSSAI certified; bulk packing 25 kg,₹274–₹361 per kg,100 kg,True,4.0,68%,11
+S031,Apex Spices & Sons,Pune,Maharashtra,Spices & Masala,cumin seeds; red chilli powder,export quality; FSSAI certified,₹149–₹180 per kg,100 kg,True,4.3,67%,18
+S032,Metro Spices Corporation,Kolkata,West Bengal,Spices & Masala,turmeric powder; cumin seeds; red chilli powder,export quality; bulk packing 25 kg,₹476–₹848 per kg,100 kg,True,3.9,69%,12
+S033,Laxmi Office Solutions,Surat,Gujarat,Office Furniture,ergonomic office chair; steel filing cabinet; conference table,custom sizes; installation included,"₹5,517–₹8,046 per piece",10 pieces,True,4.5,79%,29
+S034,Unique Office Udyog,Jaipur,Rajasthan,Office Furniture,conference table; ergonomic office chair,BIFMA tested; custom sizes,"₹18,255–₹24,852 per piece",10 pieces,True,4.1,76%,19
+S035,Royal Office Corporation,Bengaluru,Karnataka,Office Furniture,conference table; ergonomic office chair,BIFMA tested; custom sizes,"₹14,884–₹20,855 per piece",10 pieces,True,4.0,96%,8
+S036,Krishna Office & Sons,Hyderabad,Telangana,Office Furniture,ergonomic office chair; modular workstation,BIFMA tested; installation included,"₹6,141–₹9,531 per piece",10 pieces,True,4.0,95%,9
+S037,Laxmi Electrical Impex,Nagpur,Maharashtra,Electrical Cables & Wires,aluminium cable; flexible wire; armoured power cable,FR-LSH; ISI marked,₹50–₹61 per metre,1000 metre,False,4.8,95%,15
+S038,Unique Electrical Traders,Chennai,Tamil Nadu,Electrical Cables & Wires,armoured power cable; copper house wire,ISI marked; 1.5 sq mm to 16 sq mm,₹19–₹30 per metre,1000 metre,False,4.1,83%,19
+S039,Om Electrical Enterprises,Ludhiana,Punjab,Electrical Cables & Wires,flexible wire; armoured power cable,FR-LSH; ISI marked,₹12–₹19 per metre,1000 metre,True,4.3,97%,18
+S040,Jai Electrical Manufacturing Co.,Kolkata,West Bengal,Electrical Cables & Wires,copper house wire; armoured power cable; flexible wire,ISI marked; 1.5 sq mm to 16 sq mm,₹198–₹325 per metre,1000 metre,False,4.2,79%,4
+S041,Om Water Impex,Indore,Madhya Pradesh,Water Purification,commercial RO plant 500 LPH; water softener,AMC available; TDS up to 2000,"₹76,646–₹121,937 per piece",1 piece,True,4.4,63%,2
+S042,Metro Water Enterprises,Hyderabad,Telangana,Water Purification,water softener; UV purifier; commercial RO plant 500 LPH,installation included; AMC available,"₹219,452–₹301,639 per piece",1 piece,True,4.2,84%,26
+S043,Balaji Water & Sons,Coimbatore,Tamil Nadu,Water Purification,water softener; commercial RO plant 500 LPH,installation included; AMC available,"₹161,979–₹238,980 per piece",1 piece,False,4.9,83%,10
+S044,Supreme Water Corporation,Noida,Uttar Pradesh,Water Purification,commercial RO plant 500 LPH; water softener,installation included; AMC available,"₹61,672–₹109,260 per piece",1 piece,True,4.7,87%,10
+S045,Metro Garments Manufacturing Co.,Delhi,Delhi,Garments (Bulk),cotton round neck t-shirt; hoodie; corporate uniform,sizes S-XXL; 180 GSM,₹361–₹521 per piece,100 pieces,True,4.1,79%,12
+S046,Balaji Garments Exports,Bengaluru,Karnataka,Garments (Bulk),corporate uniform; polo t-shirt,custom printing; sizes S-XXL,₹313–₹509 per piece,100 pieces,False,4.0,78%,4
+S047,Supreme Garments Solutions,Ahmedabad,Gujarat,Garments (Bulk),corporate uniform; polo t-shirt,custom printing; 180 GSM,₹250–₹315 per piece,100 pieces,False,4.0,64%,9
+S048,Maruti Garments Solutions,Indore,Madhya Pradesh,Garments (Bulk),polo t-shirt; hoodie; corporate uniform,sizes S-XXL; 180 GSM,₹124–₹216 per piece,100 pieces,False,4.3,60%,3
